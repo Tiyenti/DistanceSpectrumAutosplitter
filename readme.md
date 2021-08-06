@@ -1,3 +1,10 @@
+> **This is an old repository from before Distance released beta!** This will no longer work on the 1.0 version of the game,
+> not that it would be necessary as modding is banned on the speedrun.com leaderboards, and we have an officially sanctioned
+> autosplitter script that we use instead. The source code for the autosplitter script is available at
+> https://github.com/Tiyenti/distance.asl.
+> 
+> Despite no longer being strictly necessary, this repository remains public for historical purposes.
+
 # Distance Spectrum Autosplitter
 This is a Spectrum plugin that provides automatic splits, resets, and an IGT timer for Distance speedruns
 through LiveSplit Server.
@@ -20,7 +27,7 @@ It should handle it just fine.
 We'll see. 
 
 ## How to use
-(Full install instructions can be found here: https://gist.github.com/TntMatthew/1952952e0b039a9709233ba79194e57d)
+(Full install instructions can be found here: https://gist.github.com/Tiyenti/1952952e0b039a9709233ba79194e57d)
 
 Install the LiveSplit server component: https://github.com/LiveSplit/LiveSplit.Server/releases
 
@@ -30,6 +37,6 @@ start LiveSplit. The plugin will attempt to connect to the server immediately on
 it will re-attempt just before you start a run.
 
 You then need to install Distance Autosplitter plugin. Grab the latest .dll from the
-[releases page](https://github.com/TntMatthew/DistanceSpectrumAutosplitter/releases), and drop
+[releases page](https://github.com/Tiyenti/DistanceSpectrumAutosplitter/releases), and drop
 it in your `Distance_Data/Spectrum/Plugins` directory. And you're done. The timer will autostart
 once you select the first level from the levelselect, and will split after each level is completed.
